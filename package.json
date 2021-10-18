@@ -1,0 +1,27 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepetrusha": "npm install",
+    "petrusha": "node index.js",
+    "postpetrusha": "node task.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhenia0/npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhenia0/npm/issues"
+  },
+  "homepage": "https://github.com/Zhenia0/npm#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.7.0"
+  }
+}
